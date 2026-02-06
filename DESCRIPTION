@@ -1,0 +1,37 @@
+Package: TSGAM
+Type: Package
+Title: What the Package Does (Title Case)
+Version: 0.1.0
+Authors@R: c(person(given = "Jianzhong", 
+  family = "Lu", 
+  role = c("aut", "cre"), 
+  email = "jzluuuu@gmail.com")
+  )
+Description: More about what it does (maybe more than one line).
+    Continuation lines should be indented.
+License: GPL-3
+Depends: 
+    R (>= 4.2.0)
+Imports: 
+    mixOmics,
+    stats,
+    magrittr,
+    ggplot2,
+    dplyr,
+    WGCNA,
+    dynamicTreeCut,
+    mgcv,
+    tibble
+biocViews:
+    StatisticalMethod,
+    DimensionReduction,
+    PrincipalComponent,
+    Classification,
+    Microbiome,
+    BatchEffect,
+    Normalization, 
+    Visualization
+LazyDataCompression: xz
+RoxygenNote: 7.3.3
+Encoding: UTF-8
+LazyData: true
